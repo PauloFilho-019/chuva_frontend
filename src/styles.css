@@ -19,8 +19,7 @@ header{
 }
 footer{
     background-color: #725C5C;
-    display: inline;
-  float: right;
+    
 }
 
 #root{
@@ -139,4 +138,400 @@ footer{
 .header__acount--img{
    border-radius: 100%;
 }
+.main__p{
+    grid-area: text;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 25px;
 
+    letter-spacing: 0.05em;
+
+    color: #ED7839;
+}
+.main__side{ 
+    margin-left: 30px;
+    display:flex;
+    flex-direction: row;
+   
+}
+.main__sidediv{
+    margin-left: 50px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.main__sidediv--button{
+    
+    height: 30px;
+    width: 50px;
+    margin: 4px;
+    padding: auto;    
+    background: #ED7839;
+    border-radius: 4px;
+}
+.main__sidediv--button1{
+
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 7px;
+    margin: 3px;
+    padding: auto;    
+    background: #ED7839;
+    border-radius: 4px;
+}
+.main__sidediv--img{
+    padding: 7px;
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.main__sidediv--p1{
+    font-weight: 500;
+    margin-top: 6px;
+}
+.main__sidediv--p{
+    margin-top: 6px;
+    margin-left: 3px;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #ED7839;
+}
+
+.main__main{
+    display: flex;
+}
+
+.main__main--img{
+    background: rgba(141, 53, 6, 0.5);
+    border-radius: 3px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 70%;
+    height: 50%;
+}
+
+.main__main--details{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 20%;
+    
+}
+
+.main__main--header{
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.main__main--tittle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+
+    color: #4E4E4E;
+}
+
+.main__main--detailsBody{
+    margin-left: 8px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+
+    letter-spacing: 0.02em;
+    height: 30px;
+    color: #5C5C5C;
+}
+
+.main__main--detailsBodyP{
+    margin-top: -4px;
+}
+
+.main__main--detailsBodyDown{
+    margin-top: 40px;
+}
+
+.main__main--detailsBodyDownP{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 14px */
+    margin-top: 4px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+}
+
+.main__main--detailsBodyDownB{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 14px */
+    margin-top: 4px;
+    letter-spacing: 0.02em;
+    color: #5C5C5C;
+}
+.main__main--detailsBodyDownFooter{
+    margin-top: 35px;
+    font-size: 10px;
+}
+
+.main__resume{
+    margin-left: 20px;
+     margin-top: 30px;
+     margin-right: 40px;
+}
+
+.main__resume--header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0px;
+}
+.main__resume--headerTittle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 9px ;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 125% */
+    color: #4E4E4E;
+}
+
+.main__resume--content{
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.main__resume--contentP{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+   
+    color: #5C5C5C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.main__resume--contentPMo{
+    color:  #ED7839;
+    font-weight: 500;
+}
+.main__resume--form{
+    height: auto;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.main__resume--formP{
+    margin: 30px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #5C5C5C;
+    align-self: center;
+}
+
+.main__resume--formLabel{
+    margin-left: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    margin-top: 15px;
+    color: #ED7839;
+}
+
+.main__resume--formInput{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.main__resume--formInput2{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.main__resume--formInputicons{
+    margin-left: 10px;
+    width: 95%;
+     
+    padding: 6px;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.main__resume--formInputicon{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    
+}
+
+.main__resume--formInputButton{
+    width: 30%;
+    margin-right: 10px;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    /* identical to box height, or 107% */
+
+    text-align: center;
+     
+    color: #FFFFFF;border-radius: 0px 0px 4px 0px;
+
+}
+
+.main__resume__inputI{
+    display:flex;
+    flex-direction: row;
+}
+
+.main__resume--coments{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.main__resume--comentsP{
+    margin-top: 4px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #5C5C5C;
+}
+
+.main__resume--comentsP2{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #4D4D4D;
+}
+
+.main__resume--comentsI{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main__resume--comentsStatus{
+    margin-left: 13px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #757575;
+}
+.main__resume--buttonI{
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__resume--button1{
+  
+    margin-top: 1px;
+}
+
+.main__resume--button{
+    margin-left: 13px;
+    margin-right: 1px;
+    align-self: center;
+    padding-left:6px;
+    padding-right:6px;
+    height: 16px;
+    width: 10px;
+    background: #ED7839;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
